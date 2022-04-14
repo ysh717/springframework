@@ -35,7 +35,7 @@ public class Ch07Controller {
 	@RequestMapping("/content")
 	public String content(HttpServletRequest request) {
 		//logger.info("실행");
-		log.info("싫행");
+		log.info("실행");
 		
 		Date date = new Date();
 		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
