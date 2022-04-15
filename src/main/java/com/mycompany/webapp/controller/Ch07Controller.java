@@ -153,4 +153,11 @@ public class Ch07Controller {
 		return "ch07/clothInfo";
 	}
 	
+	@ModelAttribute("commonData")
+	public Ch07Board getCommonData() {
+		log.info("실행");
+		Ch07Board board = new Ch07Board(2, "제목"+ 2, "내용"+ 2,"글쓴이"+ 2, new Date());
+		return board;
+	}
+	
 }
