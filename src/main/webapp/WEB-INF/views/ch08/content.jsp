@@ -23,7 +23,7 @@
 				function saveData() {
 					$.ajax({
 						url: "saveData",
-						data: {name:"홍길동"}
+						data: {name:"홍길서"}
 					})
 					.done((data) => {
 						console.log(data);

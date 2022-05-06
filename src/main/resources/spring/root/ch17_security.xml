@@ -123,7 +123,7 @@
     </bean>
     
     <bean id ="authenticationFailureHandler" class="com.mycompany.webapp.security.Ch17AuthenticationFailureHandler">
-    	<property name="defaultFailureUrl" value = "/ch17/content"></property>
+    	<property name="defaultFailureUrl" value = "/ch17/loginForm"></property>
     </bean>
     
     <bean id ="logoutSuccessHandler" class="com.mycompany.webapp.security.Ch17LogoutSuccessHandler">
